@@ -9,8 +9,12 @@
     }
 
     .CodeMirror {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
+	font-family: monospace;
+	height: auto;
+	font-size: 16px; /* Esto hace que el texto del editor se vea más grande */	
+	color: black
     }
 
     button {
