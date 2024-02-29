@@ -145,5 +145,6 @@
     #functionNameTitle{ 
       text-align: center;
       font-weight: bold;
-      padding: 13px
+      padding: 13px;
+      font-size: 20px;	    
     }
