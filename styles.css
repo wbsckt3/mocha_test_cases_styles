@@ -141,3 +141,9 @@
       overflow-y: auto;
       height: auto; /* Ajusté la altura para dejar más espacio para el código */
     }
+
+    #functionNameTitle{ 
+      text-align: center;
+      font-weight: bold;
+      padding: 13px
+    }
