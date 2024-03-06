@@ -140,7 +140,7 @@ html, body {
       color: white;
       padding: 10px;
       overflow-y: auto;
-      height: auto; /* Ajusté la altura para dejar más espacio para el código */
+      height: 80px;
     }
 
     #functionNameTitle{ 
