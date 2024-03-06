@@ -147,7 +147,9 @@ html, body {
       text-align: center;
       font-weight: bold;
       padding: 13px;
-      font-size: 20px;	    
+      font-size: 20px;
+      background: #13132b;
+      color: white;
     }
 
 .container {
