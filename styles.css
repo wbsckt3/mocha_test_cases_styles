@@ -1,7 +1,10 @@
 /* Estilos para el editor y la interfaz */
-    body {
+
+html, body {
       font-family: Arial, sans-serif;
-      margin: 0;
+      height: 100%; /* Establece la altura del html y body al 100% */
+      margin: 0; /* Elimina el margen predeterminado */
+      padding: 0; /* Elimina el relleno predeterminado */
       background-color: #ededee;
       margin: 0;
       display: flex;
@@ -10,7 +13,7 @@
 
     .CodeMirror {
         width: 100%;
-        height: auto;
+        height: 40%;
 	font-family: monospace;
 	height: auto;
 	font-size: 17px;
@@ -148,3 +151,23 @@
       padding: 13px;
       font-size: 20px;	    
     }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%; /* Establece la altura de .container al 100% */
+    margin-bottom: 20px; /* Agregamos un margen inferior para separar los contenedores */
+}
+
+.explanation {
+    flex: 1; /* Cambiamos a flex: 1 para que ocupe todo el espacio disponible */
+    padding-right: 0px;
+    background-color: #f0f0f0; /* Color de fondo del bloque de explicación */
+    padding: 20px; /* Ajustamos el padding interno */
+    box-sizing: border-box; /* Incluimos el padding y border en el tamaño total del elemento */
+}
+
+.code-editor {
+    flex: 2;
+}
+
