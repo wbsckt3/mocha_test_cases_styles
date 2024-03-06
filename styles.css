@@ -161,7 +161,6 @@ html, body {
     flex: 1; /* Cambiamos a flex: 1 para que ocupe todo el espacio disponible */
     padding-right: 0px;
     background-color: #f0f0f0; /* Color de fondo del bloque de explicación */
-    padding: 20px; /* Ajustamos el padding interno */
     box-sizing: border-box; /* Incluimos el padding y border en el tamaño total del elemento */
 }
 
