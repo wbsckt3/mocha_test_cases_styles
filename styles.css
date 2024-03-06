@@ -167,5 +167,6 @@ html, body {
 
 .code-editor {
     flex: 2;
+    width: 50%;
 }
 
