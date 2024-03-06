@@ -160,7 +160,7 @@ html, body {
 .explanation {
     flex: 1; /* Cambiamos a flex: 1 para que ocupe todo el espacio disponible */
     padding-right: 0px;
-    background-color: #f0f0f0; /* Color de fondo del bloque de explicación */
+    background-color: #d3d5d7; /* Color de fondo del bloque de explicación */
     box-sizing: border-box; /* Incluimos el padding y border en el tamaño total del elemento */
 }
 
